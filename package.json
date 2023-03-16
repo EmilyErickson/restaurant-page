@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/EmilyErickson/restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "style-loader": "^3.3.2",
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1"
   }
