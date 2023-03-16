@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Italianno&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Charm", "Italianno", sans-serif;
+}
+
+#content {
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    display: grid;
+    grid-template-rows: 175px 1fr;
+
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.tabs button {
+    padding: 6px 12px;
+    background-color: #cbd5e1;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-family: "Italianno";
+}
+
+.title {
+    width: 100vw;
+    height: 175px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+    font-family: "Italianno";
+    font-weight: 500;
+    font-size: 5rem;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 100px 75px;
+    align-items: center;
+    justify-items: center;
+}
+
+.homeContainer {
+    display: grid;
+    grid-template-rows: 600px 1.5fr 1fr;
+    background: url("./mainpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainimg {
+    height: 500px;
+    place-self: center;
+    border-radius: 100px;
+    margin: 25px;
+}
+
+.textDiv {
+    place-self: center;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDivText {
+    width: 600px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.aboutDiv {
+    place-self: center;
+    color: #cbd5e1;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.menuContainer {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    background: url("./menupage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.menuTitle {
+    font-size: 3.5rem;
+    place-self: center;
+    color: #cbd5e1;
+}
+
+.menuItems {
+    place-self: center;
+    width: 100vw;
+    background-color: rgba(69, 69, 69, 0.5);
+    color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    align-items: center;
+    padding: 25px 0;
+    gap: 30px;
+}
+
+.menuItem {
+    border: 4px solid rgb(255, 255, 255);
+    width: 550px;
+    height: 250px;
+    place-self: center;
+    overflow: hidden;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* gap: 12px; */
+}
+
+.menuItem img {
+    width: 250px;
+    padding: 12px;
+}
+
+
+.contactContainer {
+    display: grid;
+    grid-template-rows: 400px 1fr 1fr;
+    background: url("./contactpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.contactAbout {
+    width: 375px;
+    place-self: center;
+    color: #cbd5e1;
+    text-align: center;
+}
+
+.addressInfo {
+    place-self: center;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 6rem;
+    padding: 25px 0;
+    font-family: "Italianno";
+}
+
+.addressText {
+    width: 500px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Charm";
+}
+
+.contactInfo {
+    place-self: center;
+    text-align: center;
+
+}
